@@ -1,6 +1,4 @@
-﻿using Domain.Entities;
-
-namespace Domain.Interfaces.Service
+﻿namespace Domain.Interfaces.Service
 {
     public interface IBookService
     {

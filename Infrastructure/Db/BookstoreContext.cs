@@ -1,7 +1,4 @@
-﻿using Domain.Entities;
-using Microsoft.EntityFrameworkCore;
-
-namespace Infrastructure.Db
+﻿namespace Infrastructure.Db
 {
     public class BookstoreContext : DbContext
     {

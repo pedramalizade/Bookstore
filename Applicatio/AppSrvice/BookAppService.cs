@@ -1,7 +1,4 @@
-﻿using Domain.Entities;
-using Domain.Interfaces.AppService;
-
-namespace Application.AppSrvice
+﻿namespace Application.AppSrvice
 {
     public class BookAppService : IBookAppService
     {

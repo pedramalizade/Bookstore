@@ -1,9 +1,4 @@
-﻿using Domain.Entities;
-using Domain.Interfaces.Repository;
-using Infrastructure.Db;
-using Microsoft.EntityFrameworkCore;
-
-namespace Infrastructure.Repository
+﻿namespace Infrastructure.Repository
 {
     public class BookRepository : IBookRepository
     {
