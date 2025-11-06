@@ -2,7 +2,7 @@
 
 namespace Domain.Interfaces.AppService
 {
-    public interface IAppService
+    public interface IBookAppService
     {
         Task<IEnumerable<Book>> GetAllBooksAsync();
         Task<Book?> GetBookByIdAsync(int id);

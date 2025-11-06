@@ -3,10 +3,10 @@ using Domain.Interfaces.AppService;
 
 namespace Application.AppSrvice
 {
-    public class BookAppService : IAppService
+    public class BookAppService : IBookAppService
     {
-        private readonly IAppService _appService;
-        public BookAppService(IAppService appService)
+        private readonly IBookAppService _appService;
+        public BookAppService(IBookAppService appService)
         {
                 _appService = appService;
         }
