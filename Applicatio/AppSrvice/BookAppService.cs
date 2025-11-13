@@ -22,6 +22,11 @@
             return _appService.GetAllBooksAsync();
         }
 
+        public Task<IEnumerable<Book>> GetAllPagedAsync(int pageNumber, int pageSize)
+        {
+            return _appService.GetAllPagedAsync(pageNumber, pageSize);  
+        }
+
         public Task<Book?> GetBookByIdAsync(int id)
         {
             return _appService.GetBookByIdAsync(id);

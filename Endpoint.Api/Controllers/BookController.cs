@@ -24,6 +24,13 @@ namespace Endpoint.Api.Controllers
             return book == null ? NotFound() : Ok(book);    
         }
 
+        [HttpGet("paged")]
+        public async Task<IActionResult> GetPaged(int pageNumber = 1, int pageSize = 10)
+        {
+            var books = await _bookAppService.GetAllPagedAsync(pageNumber, pageSize);
+            return Ok(books);
+        }
+
         [HttpPost]
         public async Task<IActionResult> Create(Book book)
         {

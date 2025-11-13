@@ -29,6 +29,16 @@
             await _context.SaveChangesAsync();
         }
 
+        public async Task<IEnumerable<Book>> GetAllPagedAsync(int pageNumber, int pageSize)
+        {
+            return await _context.Books
+                .Include(b => b.Author)
+                .Include(b => b.Category)
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
+                .ToListAsync();
+        }
+
         public async Task<IEnumerable<Book>> GetAllBooksAsync()
            => await _context.Books.Include(b => b.Author).Include(b => b.Category).ToListAsync();
 

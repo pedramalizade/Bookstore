@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "H10rpMRP/BdQHJ+iJcra30upHGI2sM9ft1hEkx3xICg=",
+  "Source": "Endpoint.Api",
+  "BasePath": "_content/Endpoint.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
