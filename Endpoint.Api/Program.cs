@@ -1,6 +1,3 @@
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
-
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
@@ -27,6 +24,15 @@ builder.Services.AddAuthentication("Bearer")
     });
 
 var app = builder.Build();
+
+
+var supportedCultures = new[] { new CultureInfo("fa-IR") };
+app.UseRequestLocalization(new RequestLocalizationOptions
+{
+    DefaultRequestCulture = new RequestCulture("fa-IR"),
+    SupportedCultures = supportedCultures,
+    SupportedUICultures = supportedCultures
+});
 
 if (app.Environment.IsDevelopment())
 {

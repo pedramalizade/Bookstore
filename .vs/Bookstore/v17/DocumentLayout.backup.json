@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\asus\\source\\repos\\Bookstore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{04992EC7-D9BA-4D54-8E02-35559864FF1A}|Applicatio\\Application.csproj|c:\\users\\asus\\source\\repos\\bookstore\\applicatio\\appsrvice\\bookappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04992EC7-D9BA-4D54-8E02-35559864FF1A}|Applicatio\\Application.csproj|solutionrelative:applicatio\\appsrvice\\bookappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04992EC7-D9BA-4D54-8E02-35559864FF1A}|Applicatio\\Application.csproj|c:\\users\\asus\\source\\repos\\bookstore\\applicatio\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04992EC7-D9BA-4D54-8E02-35559864FF1A}|Applicatio\\Application.csproj|solutionrelative:applicatio\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E413191-1940-4034-9CD5-F007429DF9BE}|Infrastructure\\Infrastructure.csproj|c:\\users\\asus\\source\\repos\\bookstore\\infrastructure\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E413191-1940-4034-9CD5-F007429DF9BE}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BED42B31-14A7-4BDB-8640-04D75BD1148C}|Endpoint.Api\\Endpoint.Api.csproj|c:\\users\\asus\\source\\repos\\bookstore\\endpoint.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BED42B31-14A7-4BDB-8640-04D75BD1148C}|Endpoint.Api\\Endpoint.Api.csproj|solutionrelative:endpoint.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BED42B31-14A7-4BDB-8640-04D75BD1148C}|Endpoint.Api\\Endpoint.Api.csproj|c:\\users\\asus\\source\\repos\\bookstore\\endpoint.api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED42B31-14A7-4BDB-8640-04D75BD1148C}|Endpoint.Api\\Endpoint.Api.csproj|solutionrelative:endpoint.api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BED42B31-14A7-4BDB-8640-04D75BD1148C}|Endpoint.Api\\Endpoint.Api.csproj|c:\\users\\asus\\source\\repos\\bookstore\\endpoint.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BED42B31-14A7-4BDB-8640-04D75BD1148C}|Endpoint.Api\\Endpoint.Api.csproj|solutionrelative:endpoint.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED42B31-14A7-4BDB-8640-04D75BD1148C}|Endpoint.Api\\Endpoint.Api.csproj|c:\\users\\asus\\source\\repos\\bookstore\\endpoint.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED42B31-14A7-4BDB-8640-04D75BD1148C}|Endpoint.Api\\Endpoint.Api.csproj|solutionrelative:endpoint.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 747,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,46 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BookAppService.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Bookstore\\Applicatio\\AppSrvice\\BookAppService.cs",
-              "RelativeDocumentMoniker": "Applicatio\\AppSrvice\\BookAppService.cs",
-              "ToolTip": "C:\\Users\\asus\\source\\repos\\Bookstore\\Applicatio\\AppSrvice\\BookAppService.cs",
-              "RelativeToolTip": "Applicatio\\AppSrvice\\BookAppService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T16:24:50.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BookRepository.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Bookstore\\Infrastructure\\Repository\\BookRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repository\\BookRepository.cs",
-              "ToolTip": "C:\\Users\\asus\\source\\repos\\Bookstore\\Infrastructure\\Repository\\BookRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repository\\BookRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T16:22:39.805Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Bookstore\\Endpoint.Api\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Endpoint.Api\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\asus\\source\\repos\\Bookstore\\Endpoint.Api\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Endpoint.Api\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T15:59:49.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Bookstore\\Endpoint.Api\\Program.cs",
               "RelativeDocumentMoniker": "Endpoint.Api\\Program.cs",
@@ -93,20 +46,33 @@
               "RelativeToolTip": "Endpoint.Api\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T15:59:29.997Z",
+              "WhenOpened": "2025-11-21T08:31:59.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Bookstore\\Endpoint.Api\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Endpoint.Api\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Bookstore\\Endpoint.Api\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Endpoint.Api\\Controllers\\BookController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowDoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T08:09:34.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Bookstore\\Applicatio\\Service\\TokenService.cs",
-              "RelativeDocumentMoniker": "Applicatio\\Service\\TokenService.cs",
-              "ToolTip": "C:\\Users\\asus\\source\\repos\\Bookstore\\Applicatio\\Service\\TokenService.cs",
-              "RelativeToolTip": "Applicatio\\Service\\TokenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABcAAAAAAAAAA==",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\Bookstore\\Endpoint.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Endpoint.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\Bookstore\\Endpoint.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Endpoint.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T15:57:07.429Z",
+              "WhenOpened": "2025-11-21T08:09:30.508Z",
               "EditorCaption": ""
             }
           ]

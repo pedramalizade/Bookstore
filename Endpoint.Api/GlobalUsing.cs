@@ -4,3 +4,7 @@ global using Domain.Interfaces.AppService;
 global using Domain.Interfaces.Repository;
 global using Domain.Interfaces.Service;
 global using Infrastructure.Repository;
+global using Microsoft.AspNetCore.Localization;
+global using Microsoft.IdentityModel.Tokens;
+global using System.Globalization;
+global using System.Text;
