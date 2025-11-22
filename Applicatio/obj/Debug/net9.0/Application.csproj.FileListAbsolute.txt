@@ -14,3 +14,12 @@ C:\Users\asus\source\repos\Bookstore\Applicatio\obj\Debug\net9.0\Application.dll
 C:\Users\asus\source\repos\Bookstore\Applicatio\obj\Debug\net9.0\refint\Application.dll
 C:\Users\asus\source\repos\Bookstore\Applicatio\obj\Debug\net9.0\Application.pdb
 C:\Users\asus\source\repos\Bookstore\Applicatio\obj\Debug\net9.0\ref\Application.dll
+C:\Users\ici\Desktop\0\Bookstore\Applicatio\obj\Debug\net9.0\Application.csproj.AssemblyReference.cache
+C:\Users\ici\Desktop\0\Bookstore\Applicatio\obj\Debug\net9.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ici\Desktop\0\Bookstore\Applicatio\obj\Debug\net9.0\Application.AssemblyInfoInputs.cache
+C:\Users\ici\Desktop\0\Bookstore\Applicatio\obj\Debug\net9.0\Application.AssemblyInfo.cs
+C:\Users\ici\Desktop\0\Bookstore\Applicatio\obj\Debug\net9.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\ici\Desktop\0\Bookstore\Applicatio\obj\Debug\net9.0\Application.sourcelink.json
+C:\Users\ici\Desktop\0\Bookstore\Applicatio\obj\Debug\net9.0\Application.dll
+C:\Users\ici\Desktop\0\Bookstore\Applicatio\obj\Debug\net9.0\refint\Application.dll
+C:\Users\ici\Desktop\0\Bookstore\Applicatio\obj\Debug\net9.0\Application.pdb

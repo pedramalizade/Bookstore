@@ -14,6 +14,11 @@ namespace Application.Service
             _config = config;
         }
 
+        /// <summary>
+        /// تولید توکن JWT برای کاربر مشخص.
+        /// </summary>
+        /// <param name="user">کاربری که توکن برای آن تولید می‌شود.</param>
+        /// <returns>توکن JWT به صورت رشته.</returns>
         public string GenerateToken(User user)
         {
             var claims = new[]
