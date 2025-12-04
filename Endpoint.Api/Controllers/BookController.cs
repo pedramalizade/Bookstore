@@ -1,8 +1,4 @@
-﻿using Domain.Entities;
-using Domain.Interfaces.AppService;
-using Microsoft.AspNetCore.Mvc;
-
-namespace Endpoint.Api.Controllers
+﻿namespace Endpoint.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -14,6 +10,10 @@ namespace Endpoint.Api.Controllers
             _bookAppService = bookAppService;
         }
 
+        /// <summary>
+        /// دریافت تمام کتاب‌ها
+        /// </summary>
+        /// <returns>لیست کتاب‌ها</returns>
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
@@ -24,6 +24,13 @@ namespace Endpoint.Api.Controllers
 
             return Ok(books);
         }
+
+
+        /// <summary>
+        /// دریافت کتاب بر اساس شناسه
+        /// </summary>
+        /// <param name="id">شناسه کتاب</param>
+        /// <returns>اطلاعات کتاب</returns>
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
@@ -38,6 +45,12 @@ namespace Endpoint.Api.Controllers
             return Ok(book);
         }
 
+        /// <summary>
+        /// دریافت کتاب‌ها به صورت صفحه‌بندی شده
+        /// </summary>
+        /// <param name="pageNumber">شماره صفحه</param>
+        /// <param name="pageSize">تعداد آیتم در هر صفحه</param>
+        /// <returns>لیست صفحه‌بندی‌شده‌ی کتاب‌ها</returns>
         [HttpGet("paged")]
         public async Task<IActionResult> GetPaged(int pageNumber = 1, int pageSize = 10)
         {
@@ -52,6 +65,11 @@ namespace Endpoint.Api.Controllers
             return Ok(books);
         }
 
+        /// <summary>
+        /// ایجاد کتاب جدید
+        /// </summary>
+        /// <param name="book">اطلاعات کتاب</param>
+        /// <returns>نتیجه عملیات ایجاد</returns>
         [HttpPost]
         public async Task<IActionResult> Create(Book book)
         {
@@ -70,6 +88,12 @@ namespace Endpoint.Api.Controllers
             }
         }
 
+        /// <summary>
+        /// بروزرسانی اطلاعات کتاب
+        /// </summary>
+        /// <param name="id">شناسه کتاب</param>
+        /// <param name="book">اطلاعات جدید کتاب</param>
+        /// <returns>نتیجه عملیات بروزرسانی</returns>
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, Book book)
         {
@@ -91,6 +115,12 @@ namespace Endpoint.Api.Controllers
             }
         }
 
+
+        /// <summary>
+        /// حذف کتاب بر اساس شناسه
+        /// </summary>
+        /// <param name="id">شناسه کتاب</param>
+        /// <returns>نتیجه عملیات حذف</returns>
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {

@@ -8,3 +8,5 @@ global using Microsoft.AspNetCore.Localization;
 global using Microsoft.IdentityModel.Tokens;
 global using System.Globalization;
 global using System.Text;
+global using Domain.Entities;
+global using Microsoft.AspNetCore.Mvc;
