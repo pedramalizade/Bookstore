@@ -20,9 +20,9 @@
         /// <summary>
         /// حذف کتاب بر اساس شناسه.
         /// </summary>
-        public async Task DeleteBookAsync(int id)
+        public async Task DeleteBookAsync(int bookId)
         {
-            var book = await _context.Books.FindAsync(id);
+            var book = await _context.Books.FindAsync(bookId);
             if (book != null)
             {
                 _context.Books.Remove(book);
@@ -61,9 +61,7 @@
         /// <summary>
         /// دریافت کتاب بر اساس شناسه.
         /// </summary>
-        public async Task<Book?> GetBookByIdAsync(int id)
-           => await _context.Books.Include(b => b.Author).Include(b => b.Category)
-                               .FirstOrDefaultAsync(b => b.Id == id);
-
+        public async Task<Book?> GetBookByIdAsync(int bookId)
+           => await _context.Books.Include(b => b.Author).Include(b => b.Category).FirstOrDefaultAsync(b => b.Id == bookId);
     }
 }

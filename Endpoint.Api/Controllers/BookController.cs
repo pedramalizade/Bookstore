@@ -24,13 +24,13 @@ namespace Endpoint.Api.Controllers
 
             return Ok(books);
         }
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(int id)
+        [HttpGet("{bookId}")]
+        public async Task<IActionResult> GetById(int bookId)
         {
-            if (id <= 0)
+            if (bookId <= 0)
                 return BadRequest("شناسه کتاب معتبر نیست.");
 
-            var book = await _bookAppService.GetBookByIdAsync(id);
+            var book = await _bookAppService.GetBookByIdAsync(bookId);
 
             if (book == null)
                 return NotFound("کتابی با این شناسه پیدا نشد.");
@@ -70,13 +70,13 @@ namespace Endpoint.Api.Controllers
             }
         }
 
-        [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, Book book)
+        [HttpPut("{bookId}")]
+        public async Task<IActionResult> Update(int bookId, Book book)
         {
-            if (id != book.Id)
+            if (bookId != book.Id)
                 return BadRequest("شناسه کتاب با اطلاعات ارسال‌شده همخوانی ندارد.");
 
-            var isExist = await _bookAppService.GetBookByIdAsync(id);
+            var isExist = await _bookAppService.GetBookByIdAsync(bookId);
             if (isExist == null)
                 return NotFound("کتاب موردنظر برای بروزرسانی یافت نشد.");
 
@@ -91,19 +91,19 @@ namespace Endpoint.Api.Controllers
             }
         }
 
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
+        [HttpDelete("{bookId}")]
+        public async Task<IActionResult> Delete(int bookId)
         {
-            if (id <= 0)
+            if (bookId <= 0)
                 return BadRequest("شناسه کتاب معتبر نیست.");
 
-            var book = await _bookAppService.GetBookByIdAsync(id);
+            var book = await _bookAppService.GetBookByIdAsync(bookId);
             if (book == null)
                 return NotFound("کتاب موردنظر برای حذف پیدا نشد.");
 
             try
             {
-                await _bookAppService.DeleteBookAsync(id);
+                await _bookAppService.DeleteBookAsync(bookId);
                 return Ok("کتاب با موفقیت حذف شد.");
             }
             catch (Exception)

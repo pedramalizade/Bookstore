@@ -19,9 +19,9 @@
         /// <summary>
         /// حذف کتاب بر اساس شناسه.
         /// </summary>
-        public Task DeleteBookAsync(int id)
+        public Task DeleteBookAsync(int bookId)
         {
-            return _bookService.DeleteBookAsync(id);
+            return _bookService.DeleteBookAsync(bookId);
         }
 
         /// <summary>
@@ -44,9 +44,9 @@
         /// <summary>
         /// دریافت کتاب بر اساس شناسه.
         /// </summary>
-        public Task<Book?> GetBookByIdAsync(int id)
+        public Task<Book?> GetBookByIdAsync(int bookId)
         {
-            return _bookService.GetBookByIdAsync(id);
+            return _bookService.GetBookByIdAsync(bookId);
         }
 
 
