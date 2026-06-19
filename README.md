@@ -25,7 +25,7 @@ This project is structured using **Clean Architecture**, ensuring clear separati
 
 ---
 
-## ✨ Key Features
+## 🗝️ Key Features
 
 - 🔐 **JWT Authentication & Authorization**
   - Secure login system
