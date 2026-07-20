@@ -9,13 +9,11 @@ The project focuses on maintainability, separation of concerns, and production-i
 ## 🚀 Overview
 
 BookStore is a backend system for managing books, authors, and categories with secure authentication and role-based authorization.
-
 It is designed with a clean modular structure that separates business logic from infrastructure concerns, making it highly scalable and easy to extend.
 
 ---
 
 ## 🏗️ Architecture
-
 This project is structured using **Clean Architecture**, ensuring clear separation of responsibilities:
 
 - Domain Layer (Core business logic)
