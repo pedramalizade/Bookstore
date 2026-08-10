@@ -60,7 +60,6 @@ This project is structured using **Clean Architecture**, ensuring clear separati
 - Entity Framework Core
 - SQL Server
 - JWT Authentication
-
 ---
 
 ## 🚀 Getting Started
