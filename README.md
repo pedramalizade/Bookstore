@@ -3,11 +3,8 @@
 BookStore is a modern, modular backend application built with **.NET 9.0**, designed to demonstrate scalable system design using **Clean Architecture principles** and secure RESTful APIs.
 
 The project focuses on maintainability, separation of concerns, and production-inspired backend design practices.
-
 ---
-
 ## 🚀 Overview
-
 BookStore is a backend system for managing books, authors, and categories with secure authentication and role-based authorization.
 It is designed with a clean modular structure that separates business logic from infrastructure concerns, making it highly scalable and easy to extend.
 
