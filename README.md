@@ -48,7 +48,6 @@ This project is structured using **Clean Architecture**, ensuring clear separati
 - SOLID Principles
 - Dependency Injection
 - Modular Monolith Structure
-
 ---
 
 ## 🛠 Tech Stack
