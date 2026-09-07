@@ -17,9 +17,7 @@ This project is structured using **Clean Architecture**, ensuring clear separati
 - Application Layer (Use cases & business rules)
 - Infrastructure Layer (Data access & external services)
 - API Layer (Presentation / Controllers)
-
 ---
-
 ## 🗝️ Key Features
 
 - 🔐 **JWT Authentication & Authorization**
