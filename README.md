@@ -47,9 +47,7 @@ This project is structured using **Clean Architecture**, ensuring clear separati
 - Dependency Injection
 - Modular Monolith Structure
 ---
-
 ## 🛠 Tech Stack
-
 - ASP.NET Core (.NET 9)
 - Entity Framework Core
 - SQL Server
