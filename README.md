@@ -51,7 +51,6 @@ This project is structured using **Clean Architecture**, ensuring clear separati
 - SQL Server
 - JWT Authentication
 ---
-
 ## 🚀 Getting Started
 
 ### Prerequisites
