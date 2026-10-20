@@ -17,7 +17,6 @@ This project is structured using **Clean Architecture**, ensuring clear separati
 - API Layer (Presentation / Controllers)
 ---
 ## 🗝️ Key Features
-
 - 🔐 **JWT Authentication & Authorization**
   - Secure login system
   - Role-based access control
