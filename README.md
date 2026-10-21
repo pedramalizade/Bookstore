@@ -57,7 +57,6 @@ This project is structured using **Clean Architecture**, ensuring clear separati
 - SQL Server
 
 ### Run the project
-
 ```bash
 dotnet restore
 dotnet run
